@@ -1,0 +1,39 @@
+/* Table variables */
+$table-bg: $brand-gray-5 !default;
+$table-border: desaturate(darken($table-bg, 7), 10) !default;
+$table-border-lighter: desaturate(lighten($table-bg, 7), 10) !default;
+
+
+.table-default {
+  margin-bottom: 2em;
+  width: 100%;
+  caption {
+    @extend .h2;
+    background: none;
+  }
+  th, td {
+    padding: .4em .8em .4em 0;
+  }
+  th {
+    border: 1px solid $table-border;
+    border-width: 0 0 2px 0;
+    vertical-align: middle;
+  }
+  td {
+    border: 1px solid $table-border-lighter;
+    border-width: 0 0 1px 0;
+    vertical-align: top;
+  }
+}
+
+.table-default--cv {
+  td:first-child {
+    width: 25%;
+  }
+  td + td {
+    width: 60%;
+  }
+  td:last-child {
+    //white-space: nowrap;
+  }
+}

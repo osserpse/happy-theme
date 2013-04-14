@@ -1,0 +1,87 @@
+// @media only screen and (min-width: 480px) {
+// }
+// @media only screen and (min-width: 768px) {
+// }
+// @media only screen and (min-width: 992px) {
+// }
+
+.bg-img {
+  background-color: transparent;
+  background-position: 50% 50%;
+  height: 100px;
+  margin-bottom: 1em;
+  width: 100%;
+  // @include single-box-shadow($color, $hoff, $voff, $blur, $spread, $inset);
+  @include single-box-shadow(#000, 0, 0, 15px, 1px, inset);
+}
+
+  .bg-img--code-screen {
+    background-image: image-url("img-500/code-screen.png", false, false);
+  }
+  .bg-img--espresso {
+    background-image: image-url("img-500/office-espresso.png", false, false);
+  }
+  .bg-img--wall-sketches {
+    background-image: image-url("img-500/office-wall-sketches.png", false, false);
+  }
+  .bg-img--sketch-milk {
+    background-image: image-url("img-500/prototype-sketch-milk.png", false, false);
+  }
+  .bg-img--sketch-pages {
+    background-image: image-url("img-500/prototype-sketch-pages.png", false, false);
+  }
+  .bg-img--sketch-users {
+    background-image: image-url("img-500/prototype-sketch-users.png", false, false);
+  }
+  .bg-img--brainstorm {
+    background-image: image-url("img-500/brainstorm.png", false, false);
+  }
+  .bg-img--design-h24 {
+    background-image: image-url("img-500/design-h24.png", false, false);
+  }
+  .bg-img--design-cinestar {
+    background-image: image-url("img-500/design-cinestar.png", false, false);
+  }
+  .bg-img--design-cab-plan {
+    background-image: image-url("img-500/design-cab-plan.png", false, false);
+  }
+
+@media only screen and (min-width: 550px) {
+  .bg-img--code-screen {
+    background-image: image-url("img-1100/code-screen.png", false, false);
+  }
+  .bg-img--espresso {
+    background-image: image-url("img-1100/office-espresso.png", false, false);
+  }
+  .bg-img--wall-sketches {
+    background-image: image-url("img-1100/office-wall-sketches.png", false, false);
+  }
+  .bg-img--sketch-milk {
+    background-image: image-url("img-1100/prototype-sketch-milk.png", false, false);
+  }
+  .bg-img--sketch-pages {
+    background-image: image-url("img-1100/prototype-sketch-pages.png", false, false);
+  }
+  .bg-img--sketch-users {
+    background-image: image-url("img-1100/prototype-sketch-users.png", false, false);
+  }
+  .bg-img--brainstorm {
+    background-image: image-url("img-1100/brainstorm.png", false, false);
+  }
+  .bg-img--design-h24 {
+    background-image: image-url("img-1100/design-h24.png", false, false);
+  }
+  .bg-img--design-cinestar {
+    background-image: image-url("img-1100/design-cinestar.png", false, false);
+  }
+  .bg-img--design-cab-plan {
+    background-image: image-url("img-1100/design-cab-plan.png", false, false);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .bg-img {
+    height: 250px;
+  }
+}
+

@@ -1,0 +1,27 @@
+body > footer {
+  @extend .sans;
+  font-size: .9em;
+  color: $footer-color;
+  position: relative;
+  margin-bottom: 3em;
+  a {
+  }
+}
+
+footer > .nav {
+  > li {
+    margin-right: .5em;
+    &:after {
+      content: "|";
+      color: rgba(52, 52, 52, .3);
+      padding-left: .5em;
+    }
+    a {
+      text-decoration: none;
+      @include link-colors(#444, #111, #444, #444, #444);
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

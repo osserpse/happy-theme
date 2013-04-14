@@ -1,0 +1,47 @@
+// Lists, from inuit
+// ----------------------------------------------------------------------------
+.nav {
+  list-style:none;
+  margin-left:0;
+  @extend .pie-clearfix;
+}
+.nav > li,
+.nav > li > a {
+  display:inline-block;
+ *display:inline;
+  zoom:1;
+}
+
+// .stacked extends .nav and throws the list into vertical mode, e.g.:
+.stacked > li {
+  display:list-item;
+}
+.stacked > li > a {
+    display:block;
+}
+
+
+// .list-stacked
+.list-stacked {
+  > li {
+    vertical-align: top;
+  }
+
+}
+
+// Definition list
+dl.dl-inline {
+  // border-bottom: solid 1px #DDD;
+  // border-top: solid 1px #DDD;
+  border-left: solid 3px #DDD;
+  clear: both;
+  font-size: .85em;
+  line-height: 1.5;
+  margin: 1em 0;
+  padding: 1em;
+  dt {
+    float: left;
+    font-weight: bold;
+    margin-right: .5em;
+  }
+}

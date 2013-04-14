@@ -1,0 +1,20 @@
+.dec-arrow {
+  background-color: transparent;
+  background-image: image-url("img-1100/arrow-curved.png", false, false);
+  background-position: 1% 0;
+  background-repeat: no-repeat;
+  height: 75px;
+  margin-left: -27px;
+  margin-bottom: -40px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+@media only screen and (min-width: 992px) {
+  .dec-arrow {
+    margin-bottom: -60px;
+    margin-left: -45px;
+    top: -35px;
+  }
+}

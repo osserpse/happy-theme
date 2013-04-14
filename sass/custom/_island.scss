@@ -1,0 +1,41 @@
+$base-spacing-unit: 2em!default;
+$half-spacing-unit: $base-spacing-unit / 2!default;
+
+@import "compass/css3/images";
+
+// $ISLAND
+
+.island,
+.islet{
+    display:block;
+    @extend .pie-clearfix;
+}
+.island{
+    padding:$base-spacing-unit;
+}
+    .island > :last-child,
+    .islet > :last-child{
+        margin-bottom:0;
+    }
+
+
+// Just like `.island`, only smaller.
+.islet{
+    padding:$half-spacing-unit;
+}
+
+.island--cv {
+  background-color: $brand-base-1;
+  margin-bottom: 2em;
+  // background: radial-gradient(ellipse at center, $brand-base-1 0%, $brand-base-1 50%, transparent 50%, transparent 100%);
+  // background-size: 48px 48px;
+  // background-position: 50% 10px;
+  // background-repeat: no-repeat;
+  // // background-color: $brand-base-1;
+  // @include background(
+  //                   radial-gradient(ellipse at center, $brand-base-1 0%, $brand-base-1 50%, red 50%, red 100%));
+  @include border-radius(10px);
+  // &:before {
+  //   background-image: url("foo.png");
+  // }
+}
