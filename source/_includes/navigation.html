@@ -1,0 +1,14 @@
+{% if site.simple_search %}
+<form id="SiteSearch" action="{{ site.simple_search }}" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+{% endif %}
+<ul class="main-navigation">
+  <li><a href="{{ root_url }}/">Now</a></li>
+  <li><a href="{{ root_url }}/next/">Next</a></li>
+  <li><a href="{{ root_url }}/playground/">Playground</a></li>
+</ul>
+{% include custom/navigation.html %}

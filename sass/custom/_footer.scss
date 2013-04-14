@@ -12,9 +12,10 @@ footer > .nav {
   > li {
     margin-right: .5em;
     &:after {
-      content: "|";
-      color: rgba(52, 52, 52, .3);
-      padding-left: .5em;
+    // Uncomment when more links are added
+      // content: "|";
+      // color: rgba(52, 52, 52, .3);
+      // padding-left: .5em;
     }
     a {
       text-decoration: none;
