@@ -48,7 +48,7 @@ git push heroku master
 *3. Installera tema*
 
 ```
-$ cd octopress
+$ cd <projekt-namn>
 $ git clone git://github.com/tommy351/octopress-theme-phase.git .themes/phase
 $ rake install['phase']
 $ rake generate
