@@ -5,11 +5,12 @@
 # Ändra till rätt url
 url: http://[customer].happyuserlabs.se
 
-title: Style Guide | Happy User
+title: Style Guide för Kunden
 subtitle: Style Guide
 author: Lars Olof Berg
 simple_search: http://google.com/search
-description: Style Guide
+description: Style Guide för Kunden
+customer_name: Kunden
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
