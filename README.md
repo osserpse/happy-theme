@@ -51,6 +51,9 @@ git push heroku master
 $ cd <projekt-namn>
 $ git clone git://github.com/osserpse/happy-theme.git .themes/happy-theme
 $ rake install['happy-theme']
+# Här får man frågan om man vill skriva över installerat tema
+#   Svara definitivt "ja" första gången, men var försiktig sedan
+#   och kontrollera att inte ändringar skett i befintliga tema-filer
 $ rake generate
 ```
 
