@@ -57,4 +57,10 @@ $ rake install['happy-theme']
 $ rake generate
 ```
 
+Se http://octopress.org/docs/blogging/ för instruktioner när det gäller Octopress, kortversion:
 
+```
+rake generate   # Generates posts and pages into the public directory
+rake watch      # Watches source/ and sass/ for changes and regenerates
+rake preview    # Watches, and mounts a webserver at http://localhost:4000
+```
