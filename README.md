@@ -49,8 +49,8 @@ git push heroku master
 
 ```
 $ cd <projekt-namn>
-$ git clone git://github.com/tommy351/octopress-theme-phase.git .themes/phase
-$ rake install['phase']
+$ git clone git://github.com/osserpse/happy-theme.git .themes/happy-theme
+$ rake install['happy-theme']
 $ rake generate
 ```
 
