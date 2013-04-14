@@ -57,6 +57,15 @@ $ rake install['happy-theme']
 $ rake generate
 ```
 
+I .themes/happy-theme finns `_config.yml` som lämpligen ersätter den som ligger i roten av installation, `/<projekt-namn>/_config.yml`
+
+För att uppdatera tema (om ändring skett i github):
+
+```
+$ cd <projekt-namn>/.themes/happy-theme
+$ git pull
+```
+
 Se http://octopress.org/docs/blogging/ för instruktioner när det gäller Octopress, kortversion:
 
 ```
